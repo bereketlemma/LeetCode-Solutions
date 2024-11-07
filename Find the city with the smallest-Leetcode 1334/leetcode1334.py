@@ -103,6 +103,18 @@ class Solution:
                         result_city = city
             return result_city
 
+# Complexity Analysis:
+
+# Time Complexity Analysis:
+# The time complexity for the Floyd-Warshall Algorithm is O(n^3) where n is the number of cities.
+# because we are iterating through each city and computing the shortest path between all pairs of cities.
+# The time complexity for counting the reachable cities within the threshold is O(n^2) where n is the number of cities.
+# The overall time complexity is O(n^3 + n^2) = O(n^3) where n is the number of cities.
+
+# Space Complexity Analysis:
+# The space complexity is O(n^2) where n is the number of cities.
+# because we are using a 2D matrix to store the distance between the cities and k.
+# The space complexity is O(n^2) where n is the number of cities.
 
 
 
